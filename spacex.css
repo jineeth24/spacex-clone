@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    
+}
+.main{
+    background-image: url("../spacex-images/bg-1.jpg ");
+    width: 100%;
+    height: 643px;
+    background-size: cover;
+    color: white;
+    font-size: 14px;
+    
+}
+
+
+.navbar{
+   height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.navbar .list ul{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+}
+.list ul li{
+    font-weight: bold;
+}
+.right{
+    display: flex;
+    padding-left: -20px;
+   
+}
+.inner-left{
+   
+    width: 468px;
+    height: 144px;
+   font-size: 40px;
+   margin-top: 170px ;
+   margin-left :50px;
+   color: white;
+    
+}
+.inner-left button{
+    height: 50px; 
+    width: 130px;
+    font-weight: bold;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white ;
+}
+.inner-left button:hover{
+    background-color: white;
+    color: black;
+
+}
+.section-2{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star5_10_032923_DSC_5198_desktop_94089475b5.jpg");
+    
+    width: 100%;
+    height: 643px;
+    background-size: cover;
+}
+.section-2 .inner-left{
+    margin-top: 400px ;
+   margin-left :50px;
+
+}
+.section-3{
+    background-image: url("../spacex-images/bg-3.webp");
+    width: 100%;
+    height: 643px;
+    background-size: cover;
+}
+.section-3 .inner-left{
+    margin-top: 400px ;
+   margin-left :50px;
+
+}
+.section-4{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp");
+    width: 100%;
+    height: 643px;
+    background-size: cover;
+}
+.section-4 .inner-left{
+    margin-top: 250px ;
+   margin-left :50px;
+
+}
+.section{
+    display: grid;
+    grid-template-rows: 643px 643px 643px 99px;
+
+}
+.footer{
+   background-color: black;
+   color: white;
+    height: 99px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-list ul{
+    
+        display: flex;
+        column-gap: 22px;
+        justify-content: space-around;
+
+    }
+    .footer-list ul li{
+        font-size: 12px;
+    }
